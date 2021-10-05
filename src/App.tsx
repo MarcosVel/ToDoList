@@ -6,7 +6,7 @@ import { Item } from './types/Item';
 const App = () => {
   const [ list, setList ] = useState<Item[]>([
     { id: 1, name: 'Comprar pão', done: false },
-    { id: 2, name: 'Comprar bolo', done: false },
+    { id: 2, name: 'Comprar bolo', done: true },
   ]);
 
   return (
